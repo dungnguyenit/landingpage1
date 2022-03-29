@@ -1,0 +1,65 @@
+:root {
+  blue2: aliceblue;
+}
+
+.description {
+  width: 100%;
+  position: relative;
+  height: 500px;
+
+  .description-icon {
+    position: absolute;
+    width: 359px;
+    top: 15%;
+    left: 370px;
+    color: var(blue2);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    .brand-logo {
+      width: 100%;
+    }
+    .description-item {
+      display: flex;
+      justify-content: center;
+      padding-right: 70px;
+      gap: 60px;
+      .description-colum {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .description {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .brand-logo {
+      display: none;
+    }
+    .description-icon {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-top: 20px;
+      color: white;
+      text-align: center;
+      background-image: url("../assets/Frame\ 748.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      .description-item {
+        display: flex;
+        justify-content: center;
+        padding-right: 70px;
+        gap: 60px;
+      }
+    }
+  }
+}

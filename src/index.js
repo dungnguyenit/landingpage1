@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+
 
 ReactDOM.render(
   <React.StrictMode>

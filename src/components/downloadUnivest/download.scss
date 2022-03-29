@@ -1,0 +1,38 @@
+@media screen and (min-width: 1024px) {
+  .download {
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    background: #f9f0f0;
+    .download-item {
+      display: flex;
+      justify-content: center;
+      padding-top: 2%;
+      gap: 30px;
+      .download-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .download {
+    padding: 10%;
+    font-size: 20px;
+    text-align: center;
+    background: #f9f0f0;
+    font-family: 'San Francisco Display';
+    .download-item {
+      .download-icon {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .qrcode {
+        display: none;
+      }
+    }
+  }
+}
