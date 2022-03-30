@@ -53,5 +53,8 @@
     display: flex;
      flex-wrap:wrap ;
      padding-right: 10px;
+    .slide-card{
+      justify-items: center;
+    }
   } 
 }

@@ -18,7 +18,7 @@ const Reflect = () => {
       <div className="slide">
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
-            <div className="slide-card">
+            <div className="slide-card">  
               <div className="card">
                 <img src={require("../assets/Rectangle 55.png")} alt="logo" />
                 <p>12/08/2021</p>
@@ -67,7 +67,7 @@ const Reflect = () => {
               </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
+          <SwiperSlide>
           <div className="slide-card">
               <div className="card">
                 <img src={require("../assets/Rectangle 55.png")} alt="logo" />
@@ -116,7 +116,7 @@ const Reflect = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide> */}
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
