@@ -3,7 +3,7 @@ import "./download.scss";
 const Download = () => {
   return (
     <div className="download">
-      <h1>Tải ngay UNIVEST để kiếm tiền ngay khi đang ngủ</h1>
+      <h2>Tải ngay UNIVEST để kiếm tiền ngay khi đang ngủ</h2>
       <div className="download-item">
         <div className="download-icon">
           <img src={require("../assets/Grouptao.png")} alt="logo" />
